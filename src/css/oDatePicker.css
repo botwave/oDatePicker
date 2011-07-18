@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+.odp_view { position: relative; float: left; padding: 0px; background-color: white; border: 1px solid #ccc; cursor: pointer; font-family: arial,sans-serif; text-align: left; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+  .odp_view_table { border-spacing: 0px; }
+
+    .odp_label { float: left; padding: 4px 12px 1px 12px; font-size: 18px; clear: both; }
+
+      .odp_start, .odp_end {  }
+
+    .odp_compare { color: #999; padding: 1px 12px 4px 12px; font-size: 14px; clear: both; }
+
+    .odp_view_arrow { padding: 5px; background: #f3f3f3; align: center; vertical-align: middle; }
+	
+	  .odp_view_arrow_down { width: 11px; height: 6px; background: #f3f3f3 url(../images/oDatePicker.gif) no-repeat -1px -1px; }
+	  
+	  .odp_view_arrow_up {  width: 11px; height: 6px; background: #f3f3f3 url(../images/oDatePicker.gif) no-repeat -13px -1px; }
+
+    .odp_view_left_arrow { border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; border-top-left-radius: 5px 5px; border-bottom-left-radius: 5px 5px; }
+
+    .odp_view_right_arrow { border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; border-top-right-radius: 5px 5px; border-bottom-right-radius: 5px 5px; }
+
+
+
+.odp_ctrl { position: absolute; padding: 5px; z-index: 9; background-color: #F7F7F7; cursor: default; border: 1px solid #ccc; font-family: arial,sans-serif; text-align: left; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+  .odt_ctrl_top_left_angle { border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; }
+
+  .odt_ctrl_top_right_angle { border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; }
+
+  .odp_ctrl_table { border-spacing: 0px; }
+
+    .odp_ctrl_calender {  }
+	
+	  .odp_ctrl_cal_prev { padding: 8px; border: #ccc solid 1px; background-color: #ddd; cursor: pointer; border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px;  }
+	  
+        .odp_ctrl_cal_arrow_left {  padding: 4px 2px; background: url(../images/oDatePicker.gif) no-repeat -6px -8px; }
+	
+      .odp_ctrl_cal_next { padding: 8px; border: #ccc solid 1px; background-color: #ddd; cursor: pointer; border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; }
+	  
+        .odp_ctrl_cal_arrow_right { padding: 4px 2px; background: url(../images/oDatePicker.gif) no-repeat -1px -8px; }
+	
+	  .odp_dctrl_cal_head { background-color: #ddd; height: 25px; text-align: center; }
+	  
+	    .odp_dctrl_cal_head button{ padding: 3px; border: white none 0; color: #07c; background-color: #ddd; }
+		
+	  .odp_ctrl_cal_day { padding: 3px 5px; background-color: #fff; text-align: center; font-weight: bold; font-size: 12px; }
+		
+	  .odp_ctrl_cal_date { padding: 3px; background-color: #fff; text-align: center; font-size: 12px; }
+	  
+	  .odp_ctrl_cal_date_today { font-weight: bold; }
+	  
+	  .odp_ctrl_cal_date_no_range { cursor: pointer; }
+	  
+	    .odp_ctrl_cal_date_no_range:hover { background-color: #fc3; }
+	  
+	  .odp_ctrl_cal_date_in_range { cursor: pointer; background-color: #07c; color: #fff; }
+	  
+	    .odp_ctrl_cal_date_in_range:hover { background-color: #fc3; }
+		
+	  .odp_ctrl_cal_date_compare_range { cursor: pointer; background-color: #86be2b; color: #fff; }
+	  
+	    .odp_ctrl_cal_date_compare_range:hover { background-color: #fc3; }
+		
+	  .odp_ctrl_cal_date_both_range { cursor: pointer; background-color: #00b1ab; color: #fff; }
+	  
+	    .odp_ctrl_cal_date_both_range:hover { background-color: #fc3; }
+	    
+	    .odp_ctrl_cal_date_disable { cursor: default; background-color: #fff; color: #999; }
+	    
+	      .odp_ctrl_cal_date_disable:hover { background-color: #fff; }
+	      
+	      .odp_ctrl_cal_date_in_range_disable { background-color: #8cf; }
+	      
+	        .odp_ctrl_cal_date_in_range_disable:hover { background-color: #8cf; }
+	      
+	      .odp_ctrl_cal_date_compare_range_disable { background-color: #cf8; }
+	      
+	        .odp_ctrl_cal_date_compare_range_disable:hover { background-color: #cf8; }
+	      
+	      .odp_ctrl_cal_date_both_range_disable { background-color: #afc; }
+	      
+	        .odp_ctrl_cal_date_both_range_disable:hover { background-color: #afc; }
+	
+	.odp_ctrl_set { padding: 0 5px; font-size: 13px; white-space: nowrap;  }
+	
+	  .odp_ctrl_compare_label { cursor: pointer; }
+	
+	  .odp_ctrl_range_label, .odp_ctrl_compare_label, .odp_ctrl_unit_label { margin: 4px 0; font-weight: bold; }
+	  
+	  .odp_ctrl_compare_enable_cb { }
+	  
+	  .odp_ctrl_separator { margin: 7px 0 5px 0; border-top: #666 dotted 1px; }
+	  
+	  .odp_ctrl_button { vertical-align: middle; }
+	  
+	  .odp_ctrl_apply { padding: 3px 6px; font-size: 13px; }
+	  
+	  .odp_ctrl_reset { margin-left: 6px; padding: 4px 2px; text-decoration: none; color: #666; font-size: 12px; }
+	  
+	    .odp_ctrl_cancel:hover { text-decoration: underline; }
+	  
+	  .odp_ctrl_date_input { width: 80px; }
+	  
+	    .odp_ctrl_date_pick { border: #07C solid 3px; }
+		
+		.odp_ctrl_date_compare_pick { border: #86BE2B solid 3px; }
+		
+		
+		
+  .odp_valign_top { vertical-align: top; }
+		
